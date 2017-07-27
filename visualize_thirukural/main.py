@@ -1,9 +1,9 @@
 import json
 import os
 import wordcloud
-import matplotlib.pyplot as py
 import matplotlib
 matplotlib.use('Agg')
+import matplotlib.pyplot as py
 
 def read_corpus(file_name):
     with open(file_name, "r") as file_object:
